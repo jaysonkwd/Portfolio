@@ -55,4 +55,24 @@ window.onload = () => {
 			}
 		});
 	});
+
+	let observer = new IntersectionObserver (entry => {
+		for (entries of entry) {
+			if (entries.isIntersecting) {
+				entries.target.animate([{transform: 'translateX(-10px)', opacity: 0},
+										{transform: 'translateX(0px)', opacity: 1},
+						], {
+						duration:
+						500
+						});
+				observer.unobserve(entries.target);
+			}
+		}
+
+	});
+	document.querySelectorAll('#divCertif').forEach(item => {
+		observer.observe(item);
+	});
+
+	
 };
