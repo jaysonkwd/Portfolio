@@ -192,7 +192,7 @@ content {
 	border-width: 0.2px;
 	border-radius: 10px;
 	border-color: rgba(128, 128, 128, 0.6);
-	width: 30%;
+	width: fit-content;
 }
 
 .langage_js {
@@ -214,6 +214,7 @@ content {
 .both {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .certifications {
