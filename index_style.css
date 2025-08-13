@@ -214,6 +214,7 @@ content {
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin-right: 50px;
+	margin-bottom: 150px;
 }
 
 .both {
