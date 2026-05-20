@@ -596,6 +596,7 @@ footer {
   header { padding: 14px 16px; }
   .nav-links { display: none; }
   .hero { padding: 100px 6vw 60px; }
+  .hero-name { font-size: clamp(42px, 13vw, 64px); }
   .section { padding: 70px 6vw; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .skills-grid { grid-template-columns: 1fr; gap: 40px; }
